@@ -25,5 +25,5 @@ pip install -r requirements.txt
 python -m scripts.train
 
 4. **Run evaluation (deterministic):**
-python -m scripts.eval --ckpt checkpoints/PPO_squashed_BipedalWalker-v3_seed0_1625811779_update100.pt
+python -m scripts.eval --ckpt checkpoints/PPO_squashed_BipedalWalker-v3_seed0_1771188272_update1625.pt # My personal higher update but you can put yours
 
