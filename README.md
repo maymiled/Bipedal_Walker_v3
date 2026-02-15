@@ -35,6 +35,10 @@ python -m scripts.train
 Checkpoints and videos are not tracked in git.
 Download the best checkpoint from GitHub Releases, then run evaluation with:
 
-```bash
-python -m scripts.eval --ckpt checkpoints\PPO_squashed_BipedalWalker-v3_seed0_1771188272_best.pt
+  ```bash
+  python -m scripts.eval --ckpt checkpoints\PPO_squashed_BipedalWalker-v3_seed0_1771188272_best.pt
+
+## Contributors (Group Project)
+- Mayy Miled
+- [Giuliano Aldarwish](https://github.com/01Giuliano01)
 
