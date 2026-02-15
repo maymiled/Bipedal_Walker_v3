@@ -5,6 +5,9 @@ This project implements the Proximal Policy Optimization (PPO) algorithm from sc
   <img src="assets/demo.gif" width="700" />
 </p>
 
+## Contributors (Group Project)
+- Mayy Miled
+- [Giuliano Aldarwish](https://github.com/01Giuliano01) 
 ## Requirements
 
 To run this project, you need to have the following dependencies installed:
@@ -34,11 +37,7 @@ python -m scripts.train
 ## Artifacts (checkpoints & videos)
 Checkpoints and videos are not tracked in git.
 Download the best checkpoint from GitHub Releases, then run evaluation with:
-
   ```bash
   python -m scripts.eval --ckpt checkpoints\PPO_squashed_BipedalWalker-v3_seed0_1771188272_best.pt
 
-## Contributors (Group Project)
-- Mayy Miled
-- [Giuliano Aldarwish](https://github.com/01Giuliano01)
 
