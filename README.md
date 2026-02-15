@@ -27,23 +27,3 @@ python -m scripts.train
 4. **Run evaluation (deterministic):**
 python -m scripts.eval --ckpt checkpoints/PPO_squashed_BipedalWalker-v3_seed0_1625811779_update100.pt
 
-### File structure
-.
-├── requirements.txt       # Python dependencies
-├── README.md              # Project description
-├── .gitignore             # Git ignore file
-├── scripts/               # Contains the training and evaluation scripts
-│   ├── train.py           # Main training script
-│   └── eval.py            # Evaluation script (for deterministic policy)
-├── src/                   # Source code for PPO implementation
-│   └── ppo/               # PPO components (model, buffer, training)
-│       ├── _init_.py
-│       ├── buffer.py
-│       ├──model.py
-│       ├──normalize.py
-│       ├──train_core.py
-│       ├──update.py
-│       └──utils.py
-├── checkpoints/           # Folder for saving model checkpoints
-├── runs/                  # Folder for TensorBoard logs
-└── videos/                # Folder for recorded videos of training episodes
