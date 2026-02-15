@@ -1,6 +1,9 @@
 # Reinforcement Learning PPO for BipedalWalker
 
 This project implements the Proximal Policy Optimization (PPO) algorithm from scratch to solve the **BipedalWalker-v3** environment using the Gymnasium library.
+<p align="center">
+  <img src="assets/demo.gif" width="700" />
+</p>
 
 ## Requirements
 
