@@ -1,0 +1,7 @@
+torch
+gymnasium
+tensorboard
+numpy
+swig
+gymnasium[box2d]
+gymnasium[other]
